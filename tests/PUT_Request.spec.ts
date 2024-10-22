@@ -2,7 +2,7 @@ import {test, expect} from '@playwright/test';
 
 test('PUT Request', async ({request}) => {
 
-    //API Url
+    //API-Url
     const response = await request.put('https://reqres.in/api/users/2',{
         data: {
             name: 'Jill',
