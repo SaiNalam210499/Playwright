@@ -12,6 +12,7 @@
     "@types/node": "^22.8.2"
   },
   "dependencies": {
+    "playwright": "^1.49.1",
     "playwright_api": "file:"
   }
 }
